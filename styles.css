@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.left, .right {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+.right {
+    border-right: none;
+}
+input, button {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px;
+}
