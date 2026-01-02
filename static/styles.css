@@ -19,3 +19,44 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+.cv {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.cv h1 {
+  margin-bottom: 0.2rem;
+}
+
+.cv-title {
+  font-weight: 500;
+  color: #666;
+}
+
+.cv section {
+  margin-top: 2rem;
+}
+
+.cv-item {
+  margin-top: 1rem;
+}
+
+.cv-date {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills-list li {
+  background: #eee;
+  padding: 0.4rem 0.7rem;
+  border-radius: 4px;
+  list-style: none;
+}
